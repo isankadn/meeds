@@ -194,6 +194,7 @@ body {
       .fcourse-list {
         //max-width: 1200px;
         //padding-left: 1rem;
+        border-bottom: 1px #f9f6f6 solid;
         margin: 0 auto;
         background-color: #fff;
         .courses-container {
@@ -1198,14 +1199,16 @@ header.header-main {
 
 //bottom-banner-container
 .bottom-banner-section {
-  background-color: #9dc2ec !important;
+  background-color: #0088c0 !important;
   .bottom-banner-container {
     background: url("../images/bottom-banner.jpg") center center no-repeat;
-    background-color: #9dc2ec !important;
-    height: 250px;
+    height: 300px;
     .bottom-banner-text {
-      width: 1200px;
-      margin: auto;
+      width: 400px;
+      margin-right: 3rem;
+      margin-left: auto;
+      margin-bottom: auto;
+      margin-top: auto;
       .bottom-learn {
         h2 {
           text-align: center;
@@ -2222,6 +2225,7 @@ header.header-main {
            .fcourse-list {
              //max-width: 1200px;
              //padding-left: 1rem;
+             border-bottom: 1px #f9f6f6 solid;
              margin: 0 auto;
              background-color: #fff;
              .courses-container {
@@ -3226,14 +3230,17 @@ header.header-main {
 
     //bottom-banner-container
     .bottom-banner-section {
-      background-color: #9dc2ec !important;
+      background-color: #0088c0 !important;
       .bottom-banner-container {
         background: url("../images/bottom-banner.jpg") center center no-repeat;
-        background-color: #9dc2ec !important;
-        height: 250px;
+        
+        height: 300px;
         .bottom-banner-text {
-          width: 1200px;
-          margin: auto;
+          width: 400px;
+          margin-right: 3rem;
+          margin-left: auto;
+          margin-bottom: auto;
+          margin-top: auto;
           .bottom-learn {
             h2 {
               text-align: center;
