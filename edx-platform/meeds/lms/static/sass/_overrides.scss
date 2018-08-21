@@ -9,17 +9,29 @@ body {
     max-width: 1920px;
     padding-bottom: 0;
     margin-top: 0px;
+    .page-content-container {
+      max-width: 1200px;
+    }
     .home-intro {
       background: #f3f3f3;
+    }
+    .container-footer {
+      max-width: 1200px;
     }
     a:not(.btn), a:visited:not(.btn) {
       color: $brand-color;
     }
-    .courseware {
+
       .course-tabs {
         overflow-x: auto !important;
+        max-width: 1200px;
+        padding: 10px 0;
+        margin: auto;
+        .navbar-nav {
+          margin-left: 0;
+        }
       }
-    }
+
     .container {
       padding: 0;
     }
@@ -208,6 +220,9 @@ body {
     .course-profile {
       margin-top: 0;
       padding-top: 10px;
+      box-shadow: inset 0px 1px 5px 0px rgba(0,0,0,0.1);
+      background: #f9f9f9;
+      border-bottom: 1px solid #f9f9f9;
     }
     .home-text-one {
       text-align: center;
@@ -764,7 +779,11 @@ header.header-main {
 //course about
 .course-info {
   .course-profile {
+    box-shadow: inset 0px 1px 5px 0px rgba(0,0,0,0.1);
+    background: #f9f9f9;
+    border-bottom: 1px solid #f9f9f9;
     .intro-inner-wrapper {
+      max-width: 1200px;
       .table {
         .intro {
           .main-cta {
@@ -1599,6 +1618,10 @@ header.header-main {
 
 //Footer
 .footer-main {
+  margin-top: 20px;
+  .footer-menu{
+    padding: 20px 0;
+  }
   .grid-manual {
     .row {
       background: transparentize($white, 0.4);
@@ -1686,6 +1709,8 @@ header.header-main {
 
 // Dashboard css
 .dashboard {
+  max-width: 1200px;
+  margin: auto;
   padding: 40px 1rem;
   .wrapper-action-more {
     width: inherit;
@@ -1706,6 +1731,9 @@ header.header-main {
 
 // Courseware
 .view-in-course {
+  .container {
+    max-width: 1200px !important;
+  }
   .home {
     box-sizing: content-box;
   }
@@ -1765,9 +1793,13 @@ header.header-main {
   }
   .footer-main {
     background-color: #EDEDED;
-    background-image: url("../images/footer-bg.jpg");
+    //background-image: url("../images/footer-bg.jpg");
     background-position: left bottom;
     background-repeat: no-repeat;
+    margin-top: 20px;
+    .footer-menu{
+      padding: 20px 0;
+    }
     .footer-logo {
       text-align: center;
     }
@@ -1844,10 +1876,14 @@ header.header-main {
     }
   }
   .footer-main {
+    margin-top: 20px;
     background-color: #EAECEC;
-    background-image: url("../images/footer-bg.jpg");
+    //background-image: url("../images/footer-bg.jpg");
     background-position: left bottom;
     background-repeat: no-repeat;
+    .footer-menu{
+      padding: 20px 0;
+    }
     ul {
       margin-left: 0;
       img {
@@ -1994,6 +2030,9 @@ header.header-main {
     //background-image: url("../images/footer-bg.jpg");
     background-position: left bottom;
     background-repeat: no-repeat;
+    .footer-menu{
+      padding: 20px 0;
+    }
     .footer-logo {
       text-align: left;
     }
@@ -2002,10 +2041,14 @@ header.header-main {
 
 @media screen and (min-width: 80em) {
   .footer-main {
+    margin-top: 20px;
     background-color: #EDEDED;
     //background-image: url("../images/footer-bg.jpg");
     background-position: left bottom;
     background-repeat: no-repeat;
+    .footer-menu{
+      padding: 20px 0;
+    }
     .footer-logo {
       text-align: left;
     }
@@ -2053,9 +2096,7 @@ header.header-main {
              overflow-x: auto !important;
            }
          }
-         .container {
-           padding: 0;
-         }
+
 
          .login {
            .login-button {
@@ -2798,7 +2839,11 @@ header.header-main {
     //course about
     .course-info {
       .course-profile {
+        box-shadow: inset 0px 1px 5px 0px rgba(0,0,0,0.1);
+        background: #f9f9f9;
+        border-bottom: 1px solid #f9f9f9;
         .intro-inner-wrapper {
+          max-width: 1200px;
           .table {
             .intro {
               .main-cta {
@@ -2834,7 +2879,7 @@ header.header-main {
       }
       .container {
         max-width: 1200px;
-        padding-left: 20px;
+        padding: 20px 0;
       }
     }
 
@@ -3634,6 +3679,10 @@ header.header-main {
 
     //Footer
     .footer-main {
+      margin-top: 20px;
+      .footer-menu{
+        padding: 20px 0;
+      }
       .grid-manual {
         .footer-menu{
           padding: 20px 0;
@@ -3744,6 +3793,9 @@ header.header-main {
 
     // Courseware
     .view-in-course {
+      .container {
+        max-width: 1200px !important;
+      }
       .home {
         box-sizing: content-box;
       }
@@ -3800,6 +3852,10 @@ header.header-main {
         }
       }
       .footer-main {
+        .footer-menu{
+          padding: 20px 0;
+        }
+        margin-top: 20px;
         background-color: #EDEDED;
         //background-image: url("../images/footer-bg.jpg");
         background-position: left bottom;
@@ -3880,10 +3936,14 @@ header.header-main {
         }
       }
       .footer-main {
+        margin-top: 20px;
         background-color: #EAECEC;
-        background-image: url("../images/footer-bg.jpg");
+        //background-image: url("../images/footer-bg.jpg");
         background-position: left bottom;
         background-repeat: no-repeat;
+        .footer-menu{
+          padding: 20px 0;
+        }
         ul {
           margin-left: 0;
           img {
@@ -4026,10 +4086,17 @@ header.header-main {
     @media screen and (min-width: 64em) {
       /* 980px */
       .footer-main {
+        margin-top: 20px;
         background-color: #EDEDED;
-        background-image: url("../images/footer-bg.jpg");
+        //background-image: url("../images/footer-bg.jpg");
         background-position: left bottom;
         background-repeat: no-repeat;
+        .footer-menu{
+          padding: 20px 0;
+        }
+        .footer-menu{
+          padding: 20px 0;
+        }
         .footer-logo {
           text-align: left;
         }
@@ -4038,10 +4105,14 @@ header.header-main {
 
     @media screen and (min-width: 80em) {
       .footer-main {
+        margin-top: 20px;
         background-color: #EDEDED;
         //background-image: url("../images/footer-bg.jpg");
         background-position: left bottom;
         background-repeat: no-repeat;
+        .footer-menu{
+          padding: 20px 0;
+        }
         .footer-logo {
           text-align: left;
         }
@@ -4157,6 +4228,10 @@ header.header-main {
 
     .wrapper-preview-menu {
       background-color: $brand-color !important;
+      .preview-menu {
+        padding: 15px 0;
+        max-width: 1200px;;
+      }
     }
 
   }
@@ -4248,4 +4323,10 @@ header.header-main {
 
 .wrapper-preview-menu {
   background-color: $brand-color !important;
+  .preview-menu {
+    padding: 15px 0;
+    max-width: 1200px;;
+  }
+
+
 }
