@@ -6,6 +6,7 @@ body {
     }
   }
   .content-wrapper {
+    max-width: 1920px;
     padding-bottom: 0;
     margin-top: 0px;
     .home-intro {
@@ -1734,6 +1735,8 @@ header.header-main {
       .grid-manual {
         .banner {
           height: 408px;
+          width: 100%;
+
 
         }
         .text-tint {
@@ -2318,6 +2321,7 @@ header.header-main {
         background: url("../images/hero-home-page.jpg") no-repeat top center !important;
         background-size: cover !important;
         height: 408px;
+        width: 100%;
         margin-left: 0;
         .banner-text-wrap {
           width: 60%;
@@ -3233,7 +3237,7 @@ header.header-main {
       background-color: #0088c0 !important;
       .bottom-banner-container {
         background: url("../images/bottom-banner.jpg") center center no-repeat;
-        
+
         height: 300px;
         .bottom-banner-text {
           width: 400px;
@@ -3631,6 +3635,9 @@ header.header-main {
     //Footer
     .footer-main {
       .grid-manual {
+        .footer-menu{
+          padding: 20px 0;
+        }
         .row {
           background: transparentize($white, 0.4);
         }
@@ -3794,7 +3801,7 @@ header.header-main {
       }
       .footer-main {
         background-color: #EDEDED;
-        background-image: url("../images/footer-bg.jpg");
+        //background-image: url("../images/footer-bg.jpg");
         background-position: left bottom;
         background-repeat: no-repeat;
         .footer-logo {
