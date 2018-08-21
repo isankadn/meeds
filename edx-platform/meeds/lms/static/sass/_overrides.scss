@@ -783,7 +783,9 @@ header.header-main {
     background: #f9f9f9;
     border-bottom: 1px solid #f9f9f9;
     .intro-inner-wrapper {
-      max-width: 1200px;
+      max-width: 1200px !important;
+      box-shadow: inset 0px 0px 5px 0 rgba(0,0,0,0.5) !important;
+      border: 1px solid #f7f7f7 !important;
       .table {
         .intro {
           .main-cta {
@@ -794,6 +796,7 @@ header.header-main {
             }
             .register {
               background-image: none !important;
+              line-height: 25px;
 
             }
             .strong {
@@ -819,7 +822,7 @@ header.header-main {
   }
   .container {
     max-width: 1200px;
-    padding-left: 20px;
+    padding-top: 20px !important;
   }
 }
 
@@ -2843,7 +2846,9 @@ header.header-main {
         background: #f9f9f9;
         border-bottom: 1px solid #f9f9f9;
         .intro-inner-wrapper {
-          max-width: 1200px;
+          max-width: 1200px !important;
+          box-shadow: inset 0px 0px 5px 0 rgba(0,0,0,0.5) !important;
+          border: 1px solid #f7f7f7 !important;
           .table {
             .intro {
               .main-cta {
